@@ -1,0 +1,3 @@
+sudo apt install curl
+curl -fsSL https://raw.githubusercontent.com/balena-io/etcher/master/scripts/install.sh | bash
+sudo dd if=~/Documents/Win11_24H2_EnglishInternational_x64.iso of=/dev/sda1 bs=4M status=progress
