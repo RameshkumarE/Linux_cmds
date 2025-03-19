@@ -1,0 +1,10 @@
+# system will shutdown in 10 minutes
+sudo shutdown -h 10 
+# cancel the shutdown process
+sudo shutdown -c
+# reboot the machine forcefully
+sudo reboot -f
+reboot the machine immediately
+sudo shutdown -r now
+can set time for shutdown the machine i.e night 11:15 pm system will shutdowm
+sudo shutdown -h 23:15
