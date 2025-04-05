@@ -1,0 +1,7 @@
+# pem key should be accessible by owner only
+chmod 400  pem key path
+# ssh -i pem key path username@ipaddress
+ssh -i /home/test/Downloads/ssh.pem ubuntu@15.206.178.154
+file tranfer from ubuntu to ubuntu
+# scp -i /pem key path /file path username@destination ip address:/destination directory
+scp -i /home/test/Downloads/ssh.pem /home/test/Downloads/jenkins-ansible\ output.txt ubuntu@15.206.178.154:/home/ubuntu
