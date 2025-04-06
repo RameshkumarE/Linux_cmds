@@ -1,3 +1,5 @@
+ ssh-keygen -t rsa -b 4096
+ls ~/.ssh
 # pem key should be accessible by owner only
 chmod 400  pem key path
 # ssh -i pem key path username@ipaddress
