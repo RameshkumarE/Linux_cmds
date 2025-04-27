@@ -1,4 +1,6 @@
 # change user passwd sudo passwd username
 sudo passwd ramesh
+# to check user has sudo permission
+sudo whoami
 #change user shell
 sudo chsh -s /bin/bash ramesh
