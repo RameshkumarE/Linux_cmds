@@ -7,6 +7,9 @@ sudo passwd ramesh
 # to check if the user has sudo permission
 sudo whoami
 
+# add user with root privileges
+sudo usermod -aG sudo ramesh
+
 #change user shell
 sudo chsh -s /bin/bash ramesh
 
