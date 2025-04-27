@@ -1,6 +1,14 @@
+# Create a new user with a home directory, bash, and sudo permissions
+sudo useradd -m -s /bin/bash -G sudo username
+
 # change user passwd sudo passwd username
 sudo passwd ramesh
-# to check user has sudo permission
+
+# to check if the user has sudo permission
 sudo whoami
+
 #change user shell
 sudo chsh -s /bin/bash ramesh
+
+# open sudoers file
+sudo visudo
