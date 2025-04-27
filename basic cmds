@@ -1,0 +1,4 @@
+# change user passwd sudo passwd username
+sudo passwd ramesh
+#change user shell
+sudo chsh -s /bin/bash ramesh
