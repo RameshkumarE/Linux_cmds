@@ -1,3 +1,17 @@
+<< sameword
+bhsab
+snsk
+sameword
+
+
+# passing the command through a variable
+a=$(whoami)
+echo "$a is my user"
+
+# constant variable entire script
+readonly c=$'whoami'
+echo "$c is my user"
+
 # Create a new user with a home directory, bash, and sudo permissions
 sudo useradd -m -s /bin/bash -G sudo username
 
