@@ -20,6 +20,14 @@ echo "I am displaying the fourth column in the array ${a[3]}"
 #Display the array length
 echo "${#a[*]}"
 
+Display Specific Column Arrays 
+echo "print arrays start from 2 and only three arrays {a[*]:2:3}"
+
+# Display all arrays 
+a+=(qw ER @#.56)
+echo "${a[*]}"
+
+
 
 # Create a new user with a home directory, bash, and sudo permissions
 sudo useradd -m -s /bin/bash -G sudo username
