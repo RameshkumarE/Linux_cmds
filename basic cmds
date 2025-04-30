@@ -17,6 +17,9 @@ a=( 1 47.3 "testing" find)
 echo "${a[*]}"
 echo "I am displaying the fourth column in the array ${a[3]}"
 
+#Display the array length
+echo "${#a[*]}"
+
 
 # Create a new user with a home directory, bash, and sudo permissions
 sudo useradd -m -s /bin/bash -G sudo username
